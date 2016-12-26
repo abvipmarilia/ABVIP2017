@@ -29,7 +29,15 @@
         <?php include 'menu.php'; ?>
     </div>
     <div id="corpo">
-        <?php include 'pagina.php'; ?>
+        <?php 
+            if (!isset($pagina)){
+                include 'conteudo.php';
+            }
+            else
+            {
+                include $pagina;
+            }
+         ?>
 
     </div>
     <div id="rodape">

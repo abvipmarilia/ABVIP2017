@@ -9,14 +9,14 @@
             <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="/">ABVIP</a>
+        <a class="navbar-brand" href="?link=1">ABVIP</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Projetos</a></li>
-            <li><a href="#">Equipe</a></li>
+            <li class="active"><a href="?link=2">Projetos</a></li>
+            <li><a href="?link=3">Equipe</a></li>
             <li><a href="#">Igreja</a></li>
             <li><a href="#">Cestas</a></li>
             <li><a href="#">Contato</a></li>
